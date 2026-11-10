@@ -1,0 +1,31 @@
+/* policyeval 设计令牌 · 「调度管制台」
+   深墨绿底 + 米色面板 + 信号灯三色（只用于状态）。
+   字体：Sora（标题）/ IBM Plex Mono（DSL 与数值）。 */
+:root {
+  --ink-deep: oklch(0.215 0.028 155);
+  --ink: oklch(0.26 0.03 155);
+  --ink-soft: oklch(0.315 0.028 155);
+  --ink-line: oklch(0.36 0.025 155);
+  --paper: oklch(0.932 0.021 85);
+  --paper-strong: oklch(0.955 0.018 88);
+  --paper-dim: oklch(0.885 0.022 86);
+  --paper-line: oklch(0.795 0.024 86);
+  --text-dark: oklch(0.275 0.024 155);
+  --text-muted-dark: oklch(0.46 0.02 150);
+  --text-light: oklch(0.905 0.016 86);
+  --text-muted-light: oklch(0.7 0.02 150);
+  --signal-green: oklch(0.73 0.145 150);
+  --signal-amber: oklch(0.785 0.145 78);
+  --signal-red: oklch(0.63 0.19 25);
+  --signal-grey: oklch(0.58 0.015 150);
+  --accent: oklch(0.72 0.09 150);
+  --font-sans: 'Sora', 'Noto Sans SC', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', monospace;
+  --step--1: clamp(0.7rem, 0.68rem + 0.1vw, 0.76rem);
+  --step-0: clamp(0.8rem, 0.77rem + 0.15vw, 0.88rem);
+  --step-1: clamp(0.95rem, 0.9rem + 0.25vw, 1.08rem);
+  --step-2: clamp(1.15rem, 1.05rem + 0.5vw, 1.45rem);
+  --step-3: clamp(1.5rem, 1.3rem + 1vw, 2.1rem);
+  --rail-w: 296px;
+  --nav-w: 240px;
+}
